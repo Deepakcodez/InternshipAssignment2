@@ -1,0 +1,28 @@
+.rectButton{
+    background: transparent;
+    border : 1px solid cyan;
+    color: white;
+    transition: height 1s, width 1s, background 1s;
+
+
+
+}
+.rectButton:hover{
+    background: cyan;
+    color : black;
+
+    }
+
+    .rectButton2{
+        background: transparent;
+        border : 1px solid cyan;
+        color: black;
+        transition: height 1s, width 1s, background 1s;
+    
+    
+    
+    }
+    .rectButton2:hover{
+        background: cyan;
+    
+        }

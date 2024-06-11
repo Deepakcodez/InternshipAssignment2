@@ -1,0 +1,45 @@
+.bg-color{
+    background-color: #15212b; 
+  }
+  
+  .hclipPath-container {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .hclipPath-container::before {
+    content: '';
+    position: absolute;
+    top: -20px; 
+    left: -10px; 
+    right: 5px; 
+    bottom: 10px; 
+    background-color: #00ff22;
+    clip-path: polygon(100% 0, 100% 56%, 56% 100%, 0% 100%);
+    z-index: 1; 
+    scale: 1.1;
+  }
+  
+  .hclipPath {
+    clip-path: polygon(100% 0, 100% 56%, 56% 100%, 0% 100%);
+    height: 100%;
+    width: 100%;
+    overflow: hidden; 
+    position: relative;
+    z-index: 2; 
+  }
+  
+  .responsive-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the container while maintaining aspect ratio */
+    position: absolute; /* Position absolute to ensure it fills the clipping area */
+    top: 0;
+    left: 0;
+  }
+  
+  .ztop{
+    z-index: 120;
+  }
