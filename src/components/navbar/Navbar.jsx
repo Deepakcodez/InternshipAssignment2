@@ -11,7 +11,7 @@ export const Navbar = () => {
             <li className="">
               <img
                 style={{ height: "2.2rem" }}
-                src="/public/logo.png"
+                src="public/logo.png"
                 alt="logo"
               />
             </li>
