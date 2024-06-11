@@ -1,5 +1,6 @@
 import { Menu } from "lucide-react";
 import "./navbar.css";
+import logo from './../../../public/logo.png'
 
 export const Navbar = () => {
   return (
@@ -11,7 +12,7 @@ export const Navbar = () => {
             <li className="">
               <img
                 style={{ height: "2.2rem" }}
-                src="public/logo.png"
+                src={logo}
                 alt="logo"
               />
             </li>
